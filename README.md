@@ -1,7 +1,9 @@
 # HistoriasCalidadTeam2_202501
 
-Historia SEGURIDAD
+# Historia SEGURIDAD
+
 Prioridad: Alta
+
 Atributo de calidad: Seguridad
 
 - Cuando: Un usuario accede al sistema para gestionar Objetos Virtuales de Aprendizaje (OVA) desde una conexión externa.
