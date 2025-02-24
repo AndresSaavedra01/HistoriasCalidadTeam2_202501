@@ -1,23 +1,21 @@
 # HistoriasCalidadTeam2_202501
 
 
-# Historia _: Recuperacion automática ante fallos
+# Historia _: Dispinibilidad al 99.99%
 
-Prioridad: Alta
+Prioridad: Crítica
 
 Atributo de calidad: Disponibilidad
 
--Cuando: Un microservicio crítico del sistema (como autenticación o gestión de OVA) deja de responder debido a algún fallo
-         inesperado
+-Cuando: Un usuario accede a la plataforma en cualquier momento del dia
 
--Dado que: El sistema está en estado de falla.
+-Dado que:  la plataforma debe estar operativa con una disponibilidad del 99.9999% para garantizar el acceso continuo a los Objetos Virtuales de Aprendizaje (OVA).
 
 -Yo como: Administrador del sistema
 
--Quiero: Que el sistema detecte automáticamente la falla y reinicie el microservicio afectado sin intervención manual
+-Quiero: Supervisar que la plataforma se mantenga operativa con interrupciones mínimas y que cualquier incidente sea resuelto sin afectar la disponibilidad del servicio.
 
--Y debe suceder: Que Kubernetes reinicie el pod del microservicio en menos de 10 segundos, mientras el balanceador de carga 
-                 redirige el tráfico a otras instancias saludables para evitar interrupciones en el servicio.
+-Y debe suceder:  Que el sistema limite los tiempos de inactividad a un máximo de 52 minutos y 35 segundos al año, asegurando la continuidad operativa mediante monitoreo proactivo y recuperación automática.
 
 
 # Historia _: Monitoreo del rendimiento en tiempo real
