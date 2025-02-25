@@ -7,31 +7,46 @@ Prioridad: Crítica
 
 Atributo de calidad: Disponibilidad
 
--Cuando: Un usuario accede a la plataforma en cualquier momento del dia
+-Cuando: Un usuario accede a la plataforma en cualquier momento del dia, para subir contenido relacionado a un OVA
 
--Dado que:  la plataforma debe estar operativa con una disponibilidad del 99.9999% para garantizar el acceso continuo a los Objetos Virtuales de Aprendizaje (OVA).
+-Dado que: El sistema está en operación normal
 
 -Yo como: Administrador del sistema
 
--Quiero: Supervisar que la plataforma se mantenga operativa con interrupciones mínimas y que cualquier incidente sea resuelto sin afectar la disponibilidad del servicio.
+-Quiero: Supervisar que la plataforma se mantenga operativa con una dispinibilidad del 99.99%, con interrupciones mínimas y que cualquier incidente sea resuelto sin afectar la disponibilidad del servicio
+         para garantizar el acceso continuo a los Objetos Virtuales de Aprendizaje (OVA)
 
--Y debe suceder:  Que el sistema limite los tiempos de inactividad a un máximo de 52 minutos y 35 segundos al año, asegurando la continuidad operativa mediante monitoreo proactivo y recuperación automática.
+-Y debe suceder: Que el sistema limite los tiempos de inactividad a un máximo de 52 minutos y 35 segundos al año, asegurando la continuidad operativa mediante monitoreo proactivo.
+
+
+# Historia _: Respuestas a un error
+Prioridad: Alta
+
+Atributo de Calidad: Disponibilidad
+
+-Cuando: Un servicio crítico del sistema deja de responder debido a un fallo inesperado.
+
+-Dado que: El sistema está en un estado de falla y los usuarios dependen de su disponibilidad.
+
+-Yo como: Administrador del sistema.
+
+-Quiero: Que el sistema detecte automáticamente la falla y tome medidas correctivas sin intervención manual.
+
+-Y debe suceder: Que el sistema restablezca el servicio en un tiempo menor a 10 segundos, minimizando la interrupción y asegurando que los usuarios puedan continuar con su flujo de trabajo sin afectaciones significativas.
 
 
 # Historia _: Monitoreo del rendimiento en tiempo real
 
 Prioridad: Alta
+Atributo de Calidad: Monitoreo
 
-Atributo de calidad: Monitoreo
+-Cuando: El sistema presenta un alto consumo de recursos que podría afectar su desempeño.
 
--Cuando: El consumo de CPU supera el 80% durante más de 5 minutos o la memoria principal excede el 75% por más de 10 minutos
+-Dado que: La plataforma se encuentra en un estado crítico.
 
--Dado que: El sistema está procesando múltiples solicitudes simultáneamente.
+-Yo como: Administrador del sistema.
 
--Yo como: Ingeniero DevOps
+-Quiero: Recibir alertas automáticas cuando el sistema experimente un uso excesivo de recursos.
 
--Quiero: Que el sistema envíe alertas automáticas sobre el estado del servidor.
-
--Y debe suceder: Que se genere una notificación en Grafana, permitiendo tomar acciones antes de que el servicio se degrade.
-                 Se dispare una alerta en Prometheus que envíe un mensaje a Slack al Team.
+-Y debe suceder: Que el sistema detecte estos eventos y notifique oportunamente para que se tomen acciones correctivas y se eviten afectaciones en la experiencia del usuario.
 
