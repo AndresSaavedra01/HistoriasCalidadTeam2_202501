@@ -33,4 +33,18 @@ Criterios de aceptacion
 5. Las sesiones de usuario deben expirar automáticamente tras 30 minutos de inactividad.
 
 
-# Arenas TEST
+# Historia de Integridad
+
+#### Prioridad: Alta
+
+- **Cuando:** El sistema requiera una nueva funcionalidad.
+
+- **Dado que:** El proyecto debe contar con una evolución constante.
+
+- **Yo como:** Administrador del  Sistema.
+
+- **Quiero:** Que el la integracion de nuevos componentes se realice de manera modular sin afectar a la estabilidad del sistema.
+
+- **Y debe suceder:** Que se asegure la compatibilidad entre tecnologias,  reduciendo la necesidad de reorganizar el codigo y minimizando el impacto en el rendimiento.
+ 
+ 
