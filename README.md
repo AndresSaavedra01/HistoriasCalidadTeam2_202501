@@ -84,3 +84,36 @@ Atributo de Calidad: Monitoreo
 -Y debe suceder: Que el sistema detecte estos eventos y notifique oportunamente para que se tomen acciones correctivas y se eviten afectaciones en la experiencia del usuario.
 
 
+
+
+# Historia de Integridad entre modulos
+
+#### Prioridad: Alta
+
+- **Atributo de calidad:** Integridad
+
+- **Cuando:** El sistema requiera una nueva funcionalidad.
+
+- **Dado que:** El proyecto debe contar con una evolución constante.
+
+- **Yo como:** Administrador del  Sistema.
+
+- **Quiero:** Que el la integracion de nuevos componentes se realice de manera modular sin afectar a la estabilidad del sistema.
+
+- **Y debe suceder:** Que se asegure la compatibilidad entre tecnologias,  reduciendo la necesidad de reorganizar el codigo y minimizando el impacto en el rendimiento.
+ 
+ # Historia de Rendimiento del sistema
+
+#### Prioridad: Alta
+
+- **Atributo de calidad:** Rendimiento
+
+- **Cuando:** El sistema deba de procesar gran cantidad de solicitudes simultáneamente
+
+- **Dado que:** el sistema debe de contar con tiempos de respuesta minimos
+
+- **Yo como:** Administrador del  Sistema.
+
+- **Quiero:** que el sistema optimice el uso de recursos, dando proriedad a las funciones requeridad
+
+- **Y debe suceder:** Que se garantice una estabilidad bajo las altas cargas de trabajo, evitando cuellos de botella asegurando una experiencia fluida para los usuarios
