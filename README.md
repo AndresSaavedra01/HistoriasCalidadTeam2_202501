@@ -1,6 +1,5 @@
 # HistoriasCalidadTeam2_202501
 
-<<<<<<< HEAD
 # Historia SEGURIDAD
 
 Prioridad: Alta
@@ -32,7 +31,7 @@ Criterios de aceptacion
 
 
 5. Las sesiones de usuario deben expirar automáticamente tras 30 minutos de inactividad.
-=======
+
 
 # Historia _: Dispinibilidad al 99.99%
 
@@ -71,6 +70,7 @@ Atributo de Calidad: Disponibilidad
 # Historia _: Monitoreo del rendimiento en tiempo real
 
 Prioridad: Alta
+
 Atributo de Calidad: Monitoreo
 
 -Cuando: El sistema presenta un alto consumo de recursos que podría afectar su desempeño.
@@ -83,4 +83,4 @@ Atributo de Calidad: Monitoreo
 
 -Y debe suceder: Que el sistema detecte estos eventos y notifique oportunamente para que se tomen acciones correctivas y se eviten afectaciones en la experiencia del usuario.
 
->>>>>>> feature/sebas_morales
+
