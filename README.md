@@ -13,7 +13,7 @@ Atributo de calidad: Disponibilidad
 
 -Yo como: Administrador del sistema
 
--Quiero: Supervisar que la plataforma se mantenga operativa con una dispinibilidad del 99.99%, con interrupciones mínimas y que cualquier incidente sea resuelto sin afectar la disponibilidad del servicio
+-Quiero: Que la plataforma se mantenga operativa con una dispinibilidad del 99.99%, con interrupciones mínimas y que cualquier incidente sea resuelto sin afectar la disponibilidad del servicio
          para garantizar el acceso continuo a los Objetos Virtuales de Aprendizaje (OVA)
 
 -Y debe suceder: Que el sistema limite los tiempos de inactividad a un máximo de 52 minutos y 35 segundos al año, asegurando la continuidad operativa mediante monitoreo proactivo.
