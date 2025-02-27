@@ -117,3 +117,20 @@ Atributo de Calidad: Monitoreo
 - **Quiero:** que el sistema optimice el uso de recursos, dando proriedad a las funciones requeridad
 
 - **Y debe suceder:** Que se garantice una estabilidad bajo las altas cargas de trabajo, evitando cuellos de botella asegurando una experiencia fluida para los usuarios
+
+
+#### Historia de Escalabilidad
+
+#### Prioridad: Alta
+
+- **Atributo de calidad:** Escalabilidad
+
+- **Cuando:** La cantidad de usuarios y operaciones en el sistema aumente significativamente.
+
+- **Dado que:** El sistema debe ser capaz de manejar un crecimiento progresivo sin afectar su rendimiento ni disponibilidad.
+
+- **Yo como:** Administrador del sistema.
+
+- **Quiero:** Que el sistema pueda escalar horizontal y verticalmente de manera eficiente, permitiendo la adición de nuevos servidores y recursos según la demanda.
+
+- **Y debe suceder:** Que el sistema distribuya la carga de trabajo de manera equitativa, evitando sobrecargas en los servidores y asegurando tiempos de respuesta óptimos.
