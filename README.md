@@ -119,7 +119,7 @@ Atributo de Calidad: Monitoreo
 - **Y debe suceder:** Que se garantice una estabilidad bajo las altas cargas de trabajo, evitando cuellos de botella asegurando una experiencia fluida para los usuarios
 
 
-#### Historia de Escalabilidad
+# Historia de Escalabilidad
 
 #### Prioridad: Alta
 
@@ -134,3 +134,17 @@ Atributo de Calidad: Monitoreo
 - **Quiero:** Que el sistema pueda escalar horizontal y verticalmente de manera eficiente, permitiendo la adición de nuevos servidores y recursos según la demanda.
 
 - **Y debe suceder:** Que el sistema distribuya la carga de trabajo de manera equitativa, evitando sobrecargas en los servidores y asegurando tiempos de respuesta óptimos.
+
+#### Criterios de aceptación:
+
+- El sistema debe soportar el escalado horizontal mediante la adición de nuevas instancias sin interrupción del servicio.
+
+- Se debe implementar balanceo de carga para distribuir eficientemente el tráfico entre los servidores.
+
+- La arquitectura debe permitir la escalabilidad sin cambios significativos en el código base.
+
+- Se deben utilizar estrategias de caching para reducir la carga en la base de datos y mejorar el rendimiento.
+
+- El sistema debe ser capaz de manejar un incremento del 100% en la cantidad de usuarios activos sin degradación del servicio.
+
+
