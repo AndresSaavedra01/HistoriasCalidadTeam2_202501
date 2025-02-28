@@ -147,4 +147,21 @@ Atributo de Calidad: Monitoreo
 
 - El sistema debe ser capaz de manejar un incremento del 100% en la cantidad de usuarios activos sin degradación del servicio.
 
+## Historia de Accesibilidad para Usuarios con Discapacidad
+
+**Prioridad:** Alta  
+**Atributo de calidad:** Accesibilidad
+
+- **Cuando:** Un usuario con discapacidad visual o motriz acceda al sistema.
+- **Dado que:** La plataforma debe ser inclusiva y cumplir con los estándares de accesibilidad web (WCAG 2.1).
+- **Yo, como:** Administrador del sistema.
+- **Quiero:** Que la interfaz sea completamente navegable mediante teclados, lectores de pantalla y comandos de voz.
+- **Y debe suceder:** Que los usuarios con discapacidades puedan interactuar con todas las funcionalidades sin dificultad.
+
+### Criterios de aceptación
+1. Todos los elementos interactivos deben ser accesibles mediante teclado y contar con etiquetas ARIA.
+2. La plataforma debe ser compatible con lectores de pantalla como NVDA y JAWS.
+3. Los colores y contrastes deben cumplir con el nivel AA de WCAG 2.1 para mejorar la visibilidad del contenido.
+4. Se deben incluir subtítulos y transcripciones en los contenidos multimedia.
+5. Se realizarán pruebas de accesibilidad con usuarios reales y herramientas automatizadas como Axe o Lighthouse.
 
