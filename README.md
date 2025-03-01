@@ -8,15 +8,13 @@ Atributo de calidad: Seguridad
 
 - Cuando: Un usuario accede al sistema para gestionar Objetos Virtuales de Aprendizaje (OVA) desde una conexión externa.
 
-- Dado que: El sistema maneja información sensible de docentes y estudiantes.
+- Dado que: El sistema esta en operacion normal.
 
 - Yo como: Administrador del sistema.
 
-- Quiero: Que el sistema proteja los datos contra ataques de inyección SQL, XSS y CSRF mediante autenticación segura con OAuth2/JWT.
+- Quiero:Que el sistema implemente medidas de seguridad para proteger los datos contra ataques de inyección SQL, XSS y CSRF.
 
-- Y debe suceder: Que el sistema bloquee automáticamente cualquier intento de ataque y registre los eventos sospechosos para su posterior análisis.
-
-Criterios de aceptacion
+- Y debe suceder: Que el sistema garantice, en el 100% de los casos, la autenticación segura con OAuth2/JWT y bloquee automáticamente cualquier intento de ataque, registrando los eventos sospechosos para su posterior análisis.
 
 1. El sistema debe validar y sanitizar las entradas de los formularios para prevenir inyecciones SQL y XSS.
 
